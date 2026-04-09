@@ -72,48 +72,12 @@ NyayAI transforms legal documents into:
 
 ---
 
-### 💬 AI Chat (Multi-language)
-
-* Ask questions about document
-* Supports:
-
-  * English
-  * Hindi
-  * Hinglish
-* Context-aware responses
-
----
-
-### 📁 Dashboard System
-
-* Upload & manage documents
-* View history & insights
-* Clean, modern UI
-
----
-
 ## 🧠 Tech Stack
 
 ### Frontend
 
 * Next.js 14 (App Router)
 * Tailwind CSS
-* Framer Motion + GSAP
-
-### Backend
-
-* Supabase (Auth, Database, Storage)
-
-### AI
-
-* Google Gemini API
-
-### Document Processing
-
-* pdf-parse (PDF)
-* mammoth (DOCX)
-
----
 
 ## 🏗️ Architecture
 
@@ -121,34 +85,7 @@ NyayAI transforms legal documents into:
 Upload Document
       ↓
 Extract Text (PDF/DOCX/TXT)
-      ↓
-Gemini AI Analysis
-      ↓
-Store Results (Supabase)
-      ↓
-Display in Dashboard
 ```
-
-## ⚙️ Setup & Installation
-
-```bash
-git clone https://github.com/your-username/nyayai.git
-cd nyayai
-npm install
-npm run dev
-```
-
-## 📸 Demo Flow
-
-1. Upload a legal document
-2. AI analyzes content
-3. View:
-
-   * Summary
-   * Safety Score
-   * Risky Clauses
-4. Click clause → highlight in document
-5. Ask AI questions
 
 ---
 
